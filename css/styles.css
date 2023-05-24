@@ -1,0 +1,27 @@
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+header a:hover{
+    color: rgb(8, 126, 230);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    vertical-align: auto;
+}
+p1{
+    justify-content: left;
+    display: flex;
+    width: 500px;
+    height: 50px;
+    left: 50px; 
+}
+.up{
+    vertical-align: 15px;
+}
