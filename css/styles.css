@@ -1,5 +1,6 @@
 body{
     font-family: 'Heebo';
+    margin: 0px;
 }
 
 header a{
@@ -16,16 +17,34 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    vertical-align: auto;
+}
+h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
 }
 .p1{
-    justify-content: left;
-    display: flex;
-    width: 500px;
-    height: 50px;
-    left: 50px; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
 }
 header{
     vertical-align: 15px;
     
+}
+.about_me{
+    width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+}
+.img img{
+    width: 350px;
 }
