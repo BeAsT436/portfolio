@@ -5,7 +5,7 @@ body{
 
 header a{
     text-decoration: none;
-    color: black;
+    color: rgb(228, 13, 13);
     padding: 10px;
     font-size: 20px;
     font-weight: 500;
@@ -17,6 +17,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    vertical-align: 15px;
+    color: darkblue;
 }
 h1{
     font-weight: 700;
@@ -29,22 +31,35 @@ h1{
     line-height: 24px;
 
 }
-header{
-    vertical-align: 15px;
-    
+h2{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
 }
-.about_me{
+.container{
     width: 1140px;
     display: flex;
     margin: 0 auto;
     align-items: center;
 }
-.img{
+.img1{
     display: flex;
     justify-content: center;
     align-items: center;
     width: inherit;
 }
-.img img{
+.img1 img{
     width: 350px;
+}
+.portrait{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.img2 img{
+    width: 200px;
+}
+.projects{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
