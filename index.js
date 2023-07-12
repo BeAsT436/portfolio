@@ -11,6 +11,5 @@ window.onscroll = function () {
     header.classList.remove('show-header')
     header.classList.add('hide-header')
   }
-
   prevScrollPos = currentScrollPos
 }
