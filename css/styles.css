@@ -106,3 +106,12 @@ h3{
     width: 75px;
     margin: 25px;
 }
+/* About me */
+.avatar {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* End about me */
