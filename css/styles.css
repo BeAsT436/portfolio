@@ -50,13 +50,6 @@
   }
   
   /* End header */
-
-.p1{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-
-}
 h2{
     font-weight: 400;
     font-size: 22px;
@@ -73,22 +66,10 @@ h3{
     margin: 0 auto;
     align-items: center;
 }
-.img1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: inherit;
-}
-.img1 img{
-    width: 250px;
-}
 .portrait{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-}
-.img2 img{
-    width: 200px;
 }
 .projects{
     flex-direction: row-reverse;
@@ -102,10 +83,6 @@ h3{
     margin: 0 auto;
     flex-direction: column;
 }
-.img3 img{
-    width: 75px;
-    margin: 25px;
-}
 /* About me */
 .avatar {
   width: 100%;
@@ -116,3 +93,11 @@ h3{
 
 /* End about me */
 
+/* Stack */
+.skill-icon{
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+/* End stack */
